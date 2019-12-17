@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -37,7 +38,10 @@ public class TestClass1 {
 //		driver.manage().window().fullscreen();
 
 		System.setProperty("webdriver.chrome.driver", "/Users/debas/dadebash/CiCd/chromedriver");
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		//options.addArguments("window-size=1200x600");
+		driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
 	}
