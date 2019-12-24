@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23957" started-at="2019-12-17T06:31:41Z" finished-at="2019-12-17T06:32:05Z">
+  <suite name="Suite" duration-ms="17239" started-at="2019-12-24T06:33:35Z" finished-at="2019-12-24T06:33:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23957" started-at="2019-12-17T06:31:41Z" finished-at="2019-12-17T06:32:05Z">
+    <test name="Test" duration-ms="17239" started-at="2019-12-24T06:33:35Z" finished-at="2019-12-24T06:33:52Z">
       <class name="com.AutomationTalks.demoProject1.TestClass1">
-        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="launchDriver" is-config="true" duration-ms="958" started-at="2019-12-17T06:31:41Z" finished-at="2019-12-17T06:31:42Z">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="launchDriver" is-config="true" duration-ms="1113" started-at="2019-12-24T06:33:35Z" finished-at="2019-12-24T06:33:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="Test1" duration-ms="5278" started-at="2019-12-17T06:31:42Z" finished-at="2019-12-17T06:31:47Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="Test1" duration-ms="5950" started-at="2019-12-24T06:33:36Z" finished-at="2019-12-24T06:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="quit" is-config="true" duration-ms="85" started-at="2019-12-17T06:31:47Z" finished-at="2019-12-17T06:31:47Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="quit" is-config="true" duration-ms="85" started-at="2019-12-24T06:33:42Z" finished-at="2019-12-24T06:33:42Z">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="launchDriver" is-config="true" duration-ms="441" started-at="2019-12-17T06:31:47Z" finished-at="2019-12-17T06:31:47Z">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="launchDriver" is-config="true" duration-ms="425" started-at="2019-12-24T06:33:42Z" finished-at="2019-12-24T06:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="Test2" duration-ms="12204" started-at="2019-12-17T06:31:47Z" finished-at="2019-12-17T06:32:00Z">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="Test2" duration-ms="4858" started-at="2019-12-24T06:33:42Z" finished-at="2019-12-24T06:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="quit" is-config="true" duration-ms="84" started-at="2019-12-17T06:32:00Z" finished-at="2019-12-17T06:32:00Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="quit" is-config="true" duration-ms="85" started-at="2019-12-24T06:33:47Z" finished-at="2019-12-24T06:33:47Z">
           <params>
             <param index="0">
               <value>
@@ -45,15 +45,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="launchDriver" is-config="true" duration-ms="397" started-at="2019-12-17T06:32:00Z" finished-at="2019-12-17T06:32:00Z">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="launchDriver" is-config="true" duration-ms="413" started-at="2019-12-24T06:33:47Z" finished-at="2019-12-24T06:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="Test3" duration-ms="4404" started-at="2019-12-17T06:32:00Z" finished-at="2019-12-17T06:32:04Z">
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="Test3" duration-ms="4206" started-at="2019-12-24T06:33:48Z" finished-at="2019-12-24T06:33:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="quit" is-config="true" duration-ms="85" started-at="2019-12-17T06:32:04Z" finished-at="2019-12-17T06:32:05Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.AutomationTalks.demoProject1.TestClass1@13a57a3b]" name="quit" is-config="true" duration-ms="82" started-at="2019-12-24T06:33:52Z" finished-at="2019-12-24T06:33:52Z">
           <params>
             <param index="0">
               <value>

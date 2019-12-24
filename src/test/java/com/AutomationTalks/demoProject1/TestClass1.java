@@ -37,7 +37,7 @@ public class TestClass1 {
 //		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 //		driver.manage().window().fullscreen();
 
-		System.setProperty("webdriver.chrome.driver", "/Users/debas/dadebash/CiCd/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
 		//options.addArguments("window-size=1200x600");
